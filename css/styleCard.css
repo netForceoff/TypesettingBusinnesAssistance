@@ -1,0 +1,304 @@
+.price-block1 {
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	width: 480px;
+	height: 165px; 
+	margin-top: 55px;
+	margin-left: 140px;
+	box-sizing: border-box;
+}
+
+.block-checkbox1 {
+	width: 470px;
+}
+
+.order-block1, .basket-header {
+	margin-left: 45px;
+}
+
+.block-checkbox1 label {
+	color: #5B6778;
+}
+
+.number-block1 {
+	padding: 20px;
+}
+
+.number-block1 p {
+	color: #5B6778;
+	font-size: 13px;
+}
+
+.number-block1 span:first-child {
+	margin-left: 50px;
+}
+
+.number-block1 span {
+	font-size: 22px;
+}
+
+.button-block1 {
+	padding-left: 10px;
+	margin-top: 25px;
+	display: flex;
+}
+
+.price_1 {
+	margin-left: 120px;
+}
+
+.price_2 {
+	margin-left: 150px
+}
+
+.price_3 {
+	margin-left: 65px
+}
+
+.button-block1 a{
+	
+	text-align: center;
+	line-height: 48px;
+	margin-right: 20px;
+	border: 2px solid #E9641F;
+	font-size: 14px;
+}
+
+.button-block1 a:hover {
+	background: #D45C1E;
+	color: #ffff;
+}
+
+.button-block1 button {
+	background: white;
+	color: #E9641F; 
+	border: 2px solid #E9641F;
+}
+
+.rub {
+	border-color: #5B6778;
+}
+
+.button-block1 button:hover {
+	background: white;
+	color: #E9641F; 
+	border: 2px solid #E9641F;
+}
+
+.button-block1 button span {
+	border-bottom: 1px solid #E9641F;
+}
+
+
+@media screen and (max-width: 1196px) {
+	.order-block1 {
+		margin-left: -25px;
+	}
+
+	.block-checkbox1 {
+		width: 430px;
+	}
+
+	.price_1 {
+		margin-left: 80px;
+	}
+
+	.price_2 {
+		margin-left: 110px;
+	}
+
+	.price_3 {
+		margin-left: 25px;
+	}
+
+	.price-block1 {
+		margin-left: 105px;
+		width: 473px;
+	}
+
+	.button-block1 a {
+		margin-right: 10px; 
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 990px) {
+	.container {
+		width: 560px;
+	}
+	.block-checkbox1 {
+		width: 470px;
+		margin-left: 20px; 
+	}
+
+	.price_1 {
+		margin-left: 120px;
+	}
+
+	.price_2 {
+		margin-left: 150px;
+	}
+
+	.price_3 {
+		margin-left: 65px;
+	}
+
+	.price-block1 {
+		margin-left: -5px;
+		width: 473px;
+	}
+}
+
+@media screen and (min-width: 415px) and (max-width: 480px) {
+	.price-block1 {
+		margin-left: -23px;
+		width: 425px;
+		height: 100%;
+		text-align: center;
+	}
+
+	.number-block1 span:first-child {
+		margin-left: 0px;
+	}
+
+	.button-block1 {
+		display: inline-grid;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.button-block1 a {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+	.price-block1 {
+		margin-left: -29px;
+		width: 370px;
+		height: 100%;
+		text-align: center;
+	}
+
+	.block-checkbox1 {
+		margin-left: -3px;
+		width: 373px;
+		white-space: wrap;
+		overflow: auto;
+	}
+
+	.button-block1 {
+		display: inline-grid;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.number-block1 span:first-child {
+		margin-left: 0px;
+	}
+
+	.button-block1 a {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+	.price-block1 {
+		margin-left: -29px;
+		width: 335px;
+		height: 100%;
+		text-align: center;
+	}
+
+	.block-checkbox1 {
+		margin-left: -3px;
+		width: 329px;
+		height: 50px;
+		white-space: nowrap;
+		overflow-x: scroll;
+		text-align: center;
+	}
+
+	.number-block1 span:first-child {
+		margin-left: 0px;
+	}
+
+	.button-block1 {
+		display: inline-grid;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.button-block1 a {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.price-block1 {
+		margin-left: -29px;
+		width: 325px;
+		height: 100%;
+		text-align: center;
+	}
+
+	.number-block1 span:first-child {
+		margin-left: 0px;
+	}
+
+	.block-checkbox1 {
+		margin-left: -3px;
+		width: 319px;
+		height: 50px;
+		white-space: nowrap;
+		overflow-x: scroll;
+		text-align: center;
+	}
+
+	.button-block1 {
+		display: inline-grid;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.button-block1 a {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.price-block1 {
+		margin-left: -29px;
+		width: 280px;
+		height: 100%;
+		text-align: center;
+	}
+
+	.number-block1 span:first-child {
+		margin-left: 0px;
+	}
+
+	.block-checkbox1 {
+		margin-left: -3px;
+		width: 277px;
+		height: 50px;
+		white-space: nowrap;
+		overflow-x: scroll;
+		text-align: center;
+	}
+
+	.button-block1 {
+		display: inline-grid;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.button-block1 a {
+		margin-bottom: 20px;
+	}
+}
+

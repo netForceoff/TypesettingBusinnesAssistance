@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+	 .table-header-1 tr td p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 2px;
+  }
+
+  body .search-wrap {
+  	 line-height: 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	.table-header-1 tr td p {
+		line-height: 1.2em;
+		margin-top: 3px;
+	}
+}
+
+@media screen and (max-width: 766px) {
+    body .search-wrap .phone table {
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 3px;
+  }
+}
